@@ -1,0 +1,14 @@
+.copyright {
+	text-align: center;
+	font-size: 9px;
+	
+	a {
+		@include animate (color);
+		text-decoration: none;
+		color: #333;
+		
+		&:hover {
+			color: #ee2e24;
+		}
+	}
+}
